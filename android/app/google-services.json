@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123",
+    "project_id": "test",
+    "storage_bucket": "test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "123",
+        "android_client_info": {
+          "package_name": "com.encoded.badanalytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "123"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

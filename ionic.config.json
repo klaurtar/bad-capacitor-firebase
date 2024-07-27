@@ -1,0 +1,7 @@
+{
+  "name": "Bad Analytics",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+    <string name="app_name">Bad Analytics</string>
+    <string name="title_activity_main">Bad Analytics</string>
+    <string name="package_name">com.encoded.badanalytics</string>
+    <string name="custom_url_scheme">com.encoded.badanalytics</string>
+</resources>
