@@ -7,8 +7,8 @@ const config: CapacitorConfig = {
   bundledWebRuntime: false,
   server: {
     androidScheme: 'http',
-    // url: 'http://10.40.44.29:8100',
-    // cleartext: true,
+    url: 'http://192.168.50.139:8100',
+    cleartext: true,
   },
   plugins: {
     LocalNotifications: {

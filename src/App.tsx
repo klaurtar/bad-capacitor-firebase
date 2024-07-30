@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { IonApp, setupIonicReact, isPlatform } from '@ionic/react';
-import { Keyboard } from '@capacitor/keyboard';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -21,25 +20,6 @@ import '@ionic/react/css/display.css';
 setupIonicReact();
 
 const App: React.FC = () => {
-  useEffect(() => {
-    if (!isPlatform('capacitor')) {
-      return () => {};
-    }
-
-    Keyboard.addListener('keyboardDidShow', () => {
-      setTimeout(() => {
-        document.activeElement?.scrollIntoView({
-          block: 'center',
-          behavior: 'smooth',
-        });
-      }, 100);
-    });
-
-    return () => {
-      Keyboard.removeAllListeners();
-    };
-  }, []);
-
   return (
     <IonApp>
       <div>This showcases bad analytics</div>
